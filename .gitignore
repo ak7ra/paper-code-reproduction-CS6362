@@ -1,0 +1,17 @@
+# Datasets
+*.npz
+*.npy
+paper1_Zhang_etal/notebooks/data/
+paper2_Keskar_etal/notebooks/data/
+
+# PyTorch checkpoints
+*.pt
+*.pth
+
+# Generated cache
+cache/
+__pycache__/
+
+# Python environments
+.venv/
+venv/

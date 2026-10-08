@@ -1,0 +1,64 @@
+{
+  "net": "F1",
+  "panel": "3a",
+  "dataset": "mnist",
+  "trial": 4,
+  "chosen_trial": 4,
+  "sb_batch": 256,
+  "lb_batch": 6000,
+  "init_seed": 4000,
+  "sb_epochs": 52,
+  "lb_epochs": 200,
+  "sb_stopped_by": "criterion",
+  "lb_stopped_by": "max_epochs",
+  "sb_final": {
+    "train_loss": 0.0018636227111021677,
+    "train_acc": 99.94666666666667,
+    "test_loss": 0.07681692463159562,
+    "test_acc": 98.48
+  },
+  "lb_final": {
+    "train_loss": 6.947180954739452e-06,
+    "train_acc": 100.0,
+    "test_loss": 0.08258170137405396,
+    "test_acc": 98.28
+  },
+  "diagnostics": {
+    "endpoints_ok": true,
+    "rise_sb": 2.0278539508581132e-05,
+    "rise_lb": 0.28328473808041305,
+    "test_acc_alpha0": 98.5,
+    "test_acc_alpha1": 98.28
+  },
+  "bn_mode": "reestimate",
+  "n_alpha": 151,
+  "args": {
+    "nets": [
+      "F1"
+    ],
+    "stage": "all",
+    "trials": 5,
+    "seed": 0,
+    "out_dir": "results",
+    "data_dir": "data",
+    "device": "auto",
+    "retrain": false,
+    "sb_batch": 256,
+    "lb_frac": 0.1,
+    "lr": 0.001,
+    "max_epochs": 200,
+    "stop_window": 20,
+    "stop_tol": 0.001,
+    "n_alpha": 151,
+    "bn_mode": "reestimate",
+    "pairs": "chosen",
+    "eval_bs": 1000,
+    "bn_batch": 500,
+    "synthetic": 0
+  },
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.3",
+  "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "synthetic": false
+}
