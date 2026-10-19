@@ -1,0 +1,16 @@
+{
+  "sb": {
+    "train_mean": 98.6932,
+    "train_std": 0.47640654907337127,
+    "test_mean": 69.736,
+    "test_std": 0.724417006978717,
+    "runs_hitting_epoch_cap": 0.0
+  },
+  "lb": {
+    "train_mean": 97.08319999999999,
+    "train_std": 0.9296285279615744,
+    "test_mean": 66.152,
+    "test_std": 0.7190757957267079,
+    "runs_hitting_epoch_cap": 0.0
+  }
+}

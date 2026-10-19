@@ -1,0 +1,64 @@
+{
+  "net": "C1",
+  "panel": "3c",
+  "dataset": "cifar10",
+  "trial": 4,
+  "chosen_trial": 4,
+  "sb_batch": 256,
+  "lb_batch": 5000,
+  "init_seed": 4000,
+  "sb_epochs": 165,
+  "lb_epochs": 194,
+  "sb_stopped_by": "criterion",
+  "lb_stopped_by": "criterion",
+  "sb_final": {
+    "train_loss": 0.02836022918701172,
+    "train_acc": 99.002,
+    "test_loss": 2.386294580078125,
+    "test_acc": 69.57
+  },
+  "lb_final": {
+    "train_loss": 0.11124995529174804,
+    "train_acc": 96.236,
+    "test_loss": 2.8435849365234374,
+    "test_acc": 65.12
+  },
+  "diagnostics": {
+    "endpoints_ok": false,
+    "rise_sb": 0.0012940249013900758,
+    "rise_lb": 3.5354241533517836,
+    "test_acc_alpha0": 70.75,
+    "test_acc_alpha1": 67.16
+  },
+  "bn_mode": "reestimate",
+  "n_alpha": 151,
+  "args": {
+    "nets": [
+      "C1"
+    ],
+    "stage": "all",
+    "trials": 5,
+    "seed": 0,
+    "out_dir": "/content/drive/MyDrive/paper2_results/c1_full",
+    "data_dir": "data",
+    "device": "auto",
+    "retrain": false,
+    "sb_batch": 256,
+    "lb_frac": 0.1,
+    "lr": 0.001,
+    "max_epochs": 200,
+    "stop_window": 20,
+    "stop_tol": 0.001,
+    "n_alpha": 151,
+    "bn_mode": "reestimate",
+    "pairs": "chosen",
+    "eval_bs": 1000,
+    "bn_batch": 500,
+    "synthetic": 0
+  },
+  "torch": "2.11.0+cu130",
+  "numpy": "2.1.3",
+  "python": "3.13.15 (main, Aug  6 2026, 11:06:22) [GCC 13.3.0]",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.39",
+  "synthetic": false
+}

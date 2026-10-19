@@ -1,0 +1,64 @@
+{
+  "net": "C1",
+  "panel": "3c",
+  "dataset": "cifar10",
+  "trial": 0,
+  "chosen_trial": 0,
+  "sb_batch": 256,
+  "lb_batch": 6,
+  "init_seed": 0,
+  "sb_epochs": 1,
+  "lb_epochs": 1,
+  "sb_stopped_by": "max_epochs",
+  "lb_stopped_by": "max_epochs",
+  "sb_final": {
+    "train_loss": 2.3011467456817627,
+    "train_acc": 10.9375,
+    "test_loss": 2.2917655309041343,
+    "test_acc": 0.0
+  },
+  "lb_final": {
+    "train_loss": 2.4058364629745483,
+    "train_acc": 15.625,
+    "test_loss": 2.110652128855387,
+    "test_acc": 8.333333333333334
+  },
+  "diagnostics": {
+    "endpoints_ok": false,
+    "rise_sb": 0.0,
+    "rise_lb": 0.0,
+    "test_acc_alpha0": 16.666666666666668,
+    "test_acc_alpha1": 0.0
+  },
+  "bn_mode": "reestimate",
+  "n_alpha": 4,
+  "args": {
+    "nets": [
+      "C1"
+    ],
+    "stage": "all",
+    "trials": 1,
+    "seed": 0,
+    "out_dir": "smoke_c1_tiny",
+    "data_dir": "data",
+    "device": "auto",
+    "retrain": false,
+    "sb_batch": 256,
+    "lb_frac": 0.1,
+    "lr": 0.001,
+    "max_epochs": 1,
+    "stop_window": 1,
+    "stop_tol": 0.001,
+    "n_alpha": 4,
+    "bn_mode": "reestimate",
+    "pairs": "chosen",
+    "eval_bs": 32,
+    "bn_batch": 32,
+    "synthetic": 64
+  },
+  "torch": "2.14.1+cpu",
+  "numpy": "2.5.3",
+  "python": "3.14.8 (tags/v3.14.8:8e6e75d, Sep 30 2026, 18:19:33) [MSC v.1944 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26300-SP0",
+  "synthetic": true
+}
